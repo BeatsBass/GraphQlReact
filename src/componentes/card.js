@@ -1,21 +1,22 @@
 import React from 'react'
 import './card.css'
 
-function Card(props){
-	alert(props.kk)
-	return (
-		<div className='card'>
-		<div className='card-img'>
-		<img src={props.data.image} alt="holla"/>
-		</div>
-		</div>
-
-		<div className='card-body'>
-		<p>{props.data.title}</p>
-		<a href={props.data.link}>Link</a>
-		<p>{props.data.year}</p>
-		</div>
-	)
+function Card(props) {
+	if (props.ele !== undefined) {
+		return(
+			<ul class="list-unstyled">
+			<li class="media">
+				<img src={props.ele.image} class="mr-3" alt="..."/>
+				<div class="media-body">
+				<h5 class="mt-0 mb-1">List-based media object</h5>
+				</div>
+			</li>
+			</ul>
+		)
+	}
+	else {
+		return null
+	}
 }
 
 export default Card
