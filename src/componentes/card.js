@@ -4,14 +4,16 @@ import './card.css'
 function Card(props) {
 	if (props.ele !== undefined) {
 		return(
-			<ul class="list-unstyled">
-			<li class="media">
-				<img src={props.ele.image} class="mr-3" alt="..."/>
-				<div class="media-body">
-				<h5 class="mt-0 mb-1">List-based media object</h5>
-				</div>
-			</li>
-			</ul>
+			<div className="card">
+                <div className="card-img">
+                    <img src={props.ele.image} alt=""/>
+                </div>
+                <div className="card-body">
+                    <h5>{props.ele.artist}</h5>
+                    <p>{props.ele.title}</p>
+                    <a href={props.ele.link}>Download</a>
+                </div>
+            </div>
 		)
 	}
 	else {
