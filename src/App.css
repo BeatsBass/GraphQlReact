@@ -11,7 +11,10 @@
   grid-gap: 1rem;
 }
 .cuerpo > div {
-  background: #EDE7F6;
+  background: #1d1d1d;
+  border-radius: 12px;
+  overflow: hidden;
+  /* background: #EDE7F6; */
   /*padding: 1rem;
   border-radius: 1rem;*/
 }

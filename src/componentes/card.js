@@ -6,7 +6,7 @@ function Card(props) {
 		return(
 			<div className="card">
                 <div className="card-img">
-                    <img src={props.ele.image} alt=""/>
+                    <img src={props.ele.image} loading="lazy" alt=""/>
                 </div>
                 <div className="card-body">
                     <h5>{props.ele.artist}</h5>

@@ -7,9 +7,8 @@ const header = () => {
         <header className='header'>
             <h1>My App</h1>
             <div className="link">
-                <li><Link to="/">Inicio</Link> </li>
-                <li><Link to="/buscar">Buscar</Link> </li>
-                <li><Link to="">Go</Link> </li>
+                <li><Link to="/listarN">Get Music1</Link> </li>
+                <li><Link to="/listarA">Get Music2</Link> </li>
             </div>
         </header>
     )

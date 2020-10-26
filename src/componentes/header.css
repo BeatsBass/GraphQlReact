@@ -3,8 +3,9 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
-    color: black;
+    color: white;
     padding: .5em;
+
 }
 .header h1{
     margin: 0px;
@@ -19,9 +20,12 @@
 .header .link li{
     text-align: center;
     list-style: none;
-    width: 5em;
+    margin-right: .3em;
+    padding: 5px 10px;
 }
 .header .link li a{
     text-decoration: none;
-    color: black
+    color: rgba(255, 255, 255, 0.9);
+    padding-bottom: .3em;
+    border-bottom: 2px solid #d12a6a;
 }

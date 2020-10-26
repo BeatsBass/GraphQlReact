@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{Fragment} from 'react';
 import { gql } from 'apollo-boost'
 import { useMutation } from '@apollo/react-hooks';
 
@@ -24,7 +24,7 @@ const Buscar = () => {
     console.log(setStatus)
 
     return (
-        <div>
+        <Fragment>
             <form
                 onSubmit={async (e) => {
                     e.preventDefault();
@@ -39,7 +39,7 @@ const Buscar = () => {
                 />
                 <button type="submit">Add Todo</button>
             </form>
-        </div>
+        </Fragment>
     );
 }
 export default Buscar
