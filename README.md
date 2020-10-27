@@ -6,10 +6,10 @@
 
 Pasos:
 <ul>
-    <li>Ejecutar en cmd npm i</li>
-    <li>Ejecutar en cmd npm start</li>
+    <li>Ejecutar en cmd: <b>npm i</b></li>
+    <li>Ejecutar en cmd: <b>npm start</b></li>
     <li>El Backend esta en el siguiente <a href="https://github.com/BeatsBass/APIGraphQl">repositorio</a></li>
-    <li>Ejecutar en cmd npm start al Backend</li>
+    <li>Ejecutar en cmd: <b>npm start</b> al Backend</li>
 </ul>
 
 ## Available Scripts
