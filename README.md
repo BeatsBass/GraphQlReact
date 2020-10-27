@@ -3,7 +3,7 @@
 <img width="650" alt="portfolio_view" src="img/1.png">
 <img width="150" alt="portfolio_view" src="img/2.png">
 </div>
-
+#
 Pasos:
 <ul>
     <li>Ejecutar en cmd: <b>npm i</b></li>
